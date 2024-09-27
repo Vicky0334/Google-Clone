@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#search-input {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#search-button {
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #2563eb;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1a73e8; 
+}
+
+
+
+img {
+    width: 35px; 
+    height: 35px; 
+}
+
+
+
+@media (max-width: 640px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav div {
+        margin-bottom: 10px;
+    }
+}
